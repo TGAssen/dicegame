@@ -6,7 +6,7 @@
 
 class Player {
     public:
-        Player (std::string n= "undefinied", int s=0){
+        Player (std::string n= "undefined", int s=0){
             name=n;
             score=s;
 
@@ -34,12 +34,12 @@ class Player {
 
 };
 
-std::ostream& operator << (std::ostream& os, Player& p){
-    os<< p.getName()<<" heeft een score van: "<<p.getScore()<<"!\n";
+/*std::ostream& operator << (std::ostream& os, Player& p){
+    os<< p.getName()<<" heeft een score van: "<<p.getScore()<<"!";
     return os;
-}
+}*/
 std::ostream& operator << (std::ostream& os,  const Player& p){
-    os<< p.getName()<<" heeft een score van: "<<p.getScore()<<"!\n";
+    os<< p.getName()<<" heeft een score van: "<<p.getScore()<<"!";
     return os;
 }
 

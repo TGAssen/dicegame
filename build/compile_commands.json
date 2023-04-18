@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/Timo/Desktop/dicegametool/build",
-  "command": "C:\\TDM-GCC-64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\dicegame.dir\\main.cpp.obj -c C:\\Users\\Timo\\Desktop\\dicegametool\\main.cpp",
-  "file": "C:/Users/Timo/Desktop/dicegametool/main.cpp"
-}
-]

@@ -5,19 +5,19 @@ class Game{
     public:
        
 
-        Game(int aor, int aop){
+        Game(int _aor, int _aop):amount_of_rounds(_aor), amount_of_participants(_aop){
             
         }
         
-        void setAOR(int aor){
-            amount_of_rounds= aor;
+        void setAOR(int _aor){
+            amount_of_rounds= _aor;
         }
-        void setAOP(Playerlist pl){
-            amount_of_participants= pl.getSize();
+        void setAOP(Playerlist _pl){
+            amount_of_participants= _pl.getSize();
         }
-        void startGame(Playerlist pl, int aor){
-            setAOP(pl);
-            setAOR(aor);
+        void startGame(Playerlist _pl, int _aor){
+            setAOP(_pl);
+            setAOR(_aor);
 
         }
         void endGame(){

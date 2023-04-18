@@ -1,0 +1,7 @@
+*.code-workspace
+*.cmake
+CmakeCache.txt
+*.tcl
+/CMakeFiles
+/.vscode
+/.devcontainer
