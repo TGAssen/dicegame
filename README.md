@@ -1,4 +1,4 @@
-"# dicegame" 
+# dicegame
 
 
 Dev container is build on Linux Alpine
