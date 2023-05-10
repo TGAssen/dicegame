@@ -23,7 +23,8 @@ RUN apk add util-linux\
     extra-cmake-modules-doc\
     gdb\
     sfml\
-    sfml-dev
+    sfml-dev\
+    mesa-dri-swrast
 
 ENV DISPLAY=DESKTOP-FRFDH77:0.0
 
